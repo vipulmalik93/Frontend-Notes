@@ -1,0 +1,20 @@
+## Most Common Polyfills to Learn for Frontend Interviews
+
+| Polyfill                          | Purpose                                                                                    |
+| --------------------------------- | ------------------------------------------------------------------------------------------ |
+| **`bind()`**                      | Adds the `.bind()` method for older browsers (e.g., IE8).                                  |
+| **`call()` & `apply()`**          | Understanding these is important for explaining `bind()`, even if not polyfilled directly. |
+| **`Promise`**                     | Polyfill to support Promises in older environments (important in async/await context).     |
+| **`Object.assign()`**             | Copies properties from source objects to a target object.                                  |
+| **`Array.prototype.map()`**       | Adds `.map()` method for iterating over arrays.                                            |
+| **`Array.prototype.filter()`**    | Adds `.filter()` method to return a filtered array.                                        |
+| **`Array.prototype.forEach()`**   | Adds `.forEach()` for loop-like iteration over arrays.                                     |
+| **`Array.prototype.reduce()`**    | Adds `.reduce()` for reducing array values to a single value.                              |
+| **`Function.prototype.bind()`**   | One of the most asked manual polyfills.                                                    |
+| **`Object.create()`**             | Creates a new object with a specified prototype.                                           |
+| **`Array.isArray()`**             | Checks if a value is an array.                                                             |
+| **`String.prototype.includes()`** | Checks if one string includes another.                                                     |
+| **`Array.prototype.includes()`**  | Checks if array includes a certain value.                                                  |
+| **`fetch()`**                     | Polyfilled using libraries like `whatwg-fetch` or `axios`.                                 |
+| **`setTimeout` / `clearTimeout`** | For environments that don't support it (rare).                                             |
+| **`requestAnimationFrame()`**     | Needed for older browser support in animations.                                            |

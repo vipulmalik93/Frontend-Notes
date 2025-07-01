@@ -93,3 +93,32 @@ The output origin git@github.com-personal:vipulmalik93/Coding-And-Dsa.git (fetch
  the last part will change from th eurl with the repo name. Always set that url because only than you can have access to push in that otherwise if you don't set that than if you tries to push code there tha it will push to that repo which url is set here.
 
 
+ <!-- Inside .md file styling -->
+ # H1 - Main title
+## H2 - Section title
+### H3 - Sub-section
+
+**bold text**
+
+*italic text*
+
+~~strikethrough~~
+
+> This is a blockquote.
+[Link text](https://example.com)
+![Alt text](https://example.com/image.png)
+---   horizontal divider
+✅ :white_check_mark:
+🚀 :rocket:
+💡 :bulb:
+
+
+`let`
+
+```console.warn("hi)```
+
+
+To view style in vs code: Cmd + Shift + V
+
+
+
